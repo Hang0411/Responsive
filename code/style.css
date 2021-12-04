@@ -1,0 +1,201 @@
+@font-face{
+    font-family:"scrip-mt-bold-font";
+    src: url(../script-mt-bold-font/SCRIPTBL.TTF);
+}
+#projet{
+    width: 1200;
+    margin: 0 auto;
+}
+.head{
+    width: 1100px;
+    display: flex;
+    background-color: rgb(245, 240, 240);
+    
+}
+.logo{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;  
+}
+.menu{
+    font-family: "scrip-mt-bold-font";
+    font-size: 18px;
+    width: 800px;
+    position: absolute;
+    left: 100px;
+    padding: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 50px;
+    margin-top: 50px;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+    padding: 30px;
+}
+#body{
+    width: 1100px;
+    position: flex;
+    flex-direction: row;
+}
+#background{
+    background-image: url(../image/background\ header\ 3.jpeg);
+    width: 1100px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+}
+.text{
+    font-family: "scrip-mt-bold-font";
+    text-align:end;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    color:#ffffff;
+    
+}
+#content{
+    width: 1100px;
+    background-color: whitesmoke;
+    padding-top: 5px;
+    text-align: center; /*centrer tous les éléments dans la page*/
+    
+}
+#info{
+    width: 200px;
+    display: inline-block;
+    padding: 40px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right:50px;
+    box-shadow: 1px 1px 15px 0px #d37b7b;
+}
+#info p{
+    text-align: justify; /*centrer le text*/
+}
+.image{
+    width: 200px;
+}
+
+h2{
+    font-family: "scrip-mt-bold-font";
+    color: blue;
+}
+h3{
+    color: rgb(238, 67, 67);
+}
+.click{
+    background-color: red;
+    color: whitesmoke;
+    width: 100px;
+    height: 30px;
+    text-align: justify;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+/*version tablette: nho nhat tu 768 den 1023*/
+#projet{
+        width: 1200;
+        margin: 0 auto;
+}
+.head{
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.menu{
+    flex-direction: column;
+    height: max-content;
+    padding-left: 10px;
+}
+nav ul li{
+    font-size: 20px;
+    padding: 0;
+    
+}
+ul{
+    padding-right: 55px;
+    flex-direction: column;
+    text-align:center;
+    padding: auto;
+}
+
+#body{
+    width: 100%;
+    margin-top: 50px; 
+}
+#background{
+    width: 100%;
+}
+.text{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#content{
+    width: 100%;
+}
+#info{
+    width: 400px;
+}
+
+}
+
+@media screen and (max-width:400px) {
+/*version mobile: taille tu 0 den 400px*/
+#projet{
+    width: 1200;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.menu{
+    width: 300px;
+    flex-direction: column;
+    height: max-content;
+    padding-left: 10px;
+}
+nav ul li{
+    font-size: 14px;
+    padding: 0;
+    align-items: flex-start;
+    
+}
+ul{
+    padding-right: 55px;
+    flex-direction: column;
+    text-align:center;
+    padding: auto;
+}
+#body{
+    width: 100%;
+    margin:0;
+}
+#background{
+    width: 100%;
+    height: 250px;
+}
+.text{
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+#content{
+    width: 100%;
+    margin-top:-30px;
+    padding-left: 30px;
+}
+.logo{
+    width: 120px;
+}
+}
